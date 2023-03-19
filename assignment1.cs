@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp4
 {
-    internal class Program //min,max,sum,average values with for loop
+    internal class Program //finding min,max,sum,average values of an array using for loop
     {
         static void Main(string[] args)
         {

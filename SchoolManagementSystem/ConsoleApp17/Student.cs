@@ -11,8 +11,6 @@ namespace SchoolSystem
         {
             Console.WriteLine("Enter the name of homework: ");
             string? homework = Console.ReadLine();
-            //string? studentName = Console.ReadLine();
-            //Student student = school.Find(s => s.Name == studentName);
             Console.WriteLine($"Homework is submitted {homework}");
         }
 

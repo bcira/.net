@@ -14,16 +14,6 @@ namespace SchoolSystem
             Console.WriteLine($"Homework is submitted {homework}");
         }
 
-        public void AddStudent<T>(List<T> list) where T : Student, new()
-        {
-            Console.Write("Enter the name: ");
-            string? name = Console.ReadLine();
-
-            T student = new T { Name = name };
-
-            list.Add(student);
-        }
-
      
     }
 }
